@@ -1,0 +1,3 @@
+/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/App_Websockets.dir
