@@ -18,7 +18,8 @@ Crossplatform , Language agnostic using foreign function interface(nifs)
 * `phx-project` -> pheonix project 
 
 
-### Useful Guides.
-http://piyushparkash.blogspot.com/2012/10/installing-boost-150-in-ubuntu-1210.html
+### Useful Guides & Commands.
 
+-> http://piyushparkash.blogspot.com/2012/10/installing-boost-150-in-ubuntu-1210.html
+-> Linux install boost `sudo apt-get install libboost-all-dev` or `https://www.boost.org/`
 
