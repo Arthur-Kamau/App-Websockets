@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/home/kamau/Libraries/boost_1_55_0"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -66,6 +68,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/home/kamau/Libraries/boost_1_55_0"/>
 					<Add directory="/usr/include/c++/10"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/include/c++/10/backward"/>
@@ -82,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSockets.cpp">
+			<Option target="App_Websockets"/>
+		</Unit>
+		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSockets.h">
+			<Option target="App_Websockets"/>
+		</Unit>
 		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/main.cpp">
 			<Option target="App_Websockets"/>
 		</Unit>

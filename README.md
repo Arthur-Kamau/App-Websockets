@@ -12,3 +12,11 @@ In early development
 
 ### Why cpp .
 Crossplatform , Language agnostic using foreign function interface(nifs) 
+
+
+### Useful Guides.
+http://piyushparkash.blogspot.com/2012/10/installing-boost-150-in-ubuntu-1210.html
+
+### Command
+ g++ -g main.cpp -o tut1 -L/usr/local/lib/ -lboost_filesystem
+

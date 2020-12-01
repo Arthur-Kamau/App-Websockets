@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -g   -std=gnu++2a
 
-CXX_DEFINES = 
+CXX_DEFINES = -DBOOST_ERROR_CODE_HEADER_ONLY
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /home/kamau/Libraries/boost_1_55_0 
 

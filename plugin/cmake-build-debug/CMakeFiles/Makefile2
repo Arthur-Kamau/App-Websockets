@@ -94,12 +94,12 @@ clean: CMakeFiles/App_Websockets.dir/clean
 CMakeFiles/App_Websockets.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target App_Websockets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target App_Websockets"
 .PHONY : CMakeFiles/App_Websockets.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/App_Websockets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/App_Websockets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/App_Websockets.dir/rule

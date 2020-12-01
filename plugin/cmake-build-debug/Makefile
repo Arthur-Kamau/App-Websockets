@@ -143,6 +143,33 @@ App_Websockets/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/build
 .PHONY : App_Websockets/fast
 
+AppWebSockets.o: AppWebSockets.cpp.o
+
+.PHONY : AppWebSockets.o
+
+# target to build an object file
+AppWebSockets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSockets.cpp.o
+.PHONY : AppWebSockets.cpp.o
+
+AppWebSockets.i: AppWebSockets.cpp.i
+
+.PHONY : AppWebSockets.i
+
+# target to preprocess a source file
+AppWebSockets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSockets.cpp.i
+.PHONY : AppWebSockets.cpp.i
+
+AppWebSockets.s: AppWebSockets.cpp.s
+
+.PHONY : AppWebSockets.s
+
+# target to generate assembly for a file
+AppWebSockets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSockets.cpp.s
+.PHONY : AppWebSockets.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... App_Websockets"
+	@echo "... AppWebSockets.o"
+	@echo "... AppWebSockets.i"
+	@echo "... AppWebSockets.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
