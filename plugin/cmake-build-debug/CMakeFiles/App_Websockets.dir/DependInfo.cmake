@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSockets.cpp" "/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/App_Websockets.dir/AppWebSockets.cpp.o"
+  "/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSocketsConnectionObject.cpp" "/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/App_Websockets.dir/AppWebSocketsConnectionObject.cpp.o"
   "/home/kamau/Development/Projects/App-Websockets/plugin/main.cpp" "/home/kamau/Development/Projects/App-Websockets/plugin/cmake-build-debug/CMakeFiles/App_Websockets.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

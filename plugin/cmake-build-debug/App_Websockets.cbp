@@ -92,6 +92,12 @@
 		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSockets.h">
 			<Option target="App_Websockets"/>
 		</Unit>
+		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSocketsConnectionObject.cpp">
+			<Option target="App_Websockets"/>
+		</Unit>
+		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/AppWebSocketsConnectionObject.h">
+			<Option target="App_Websockets"/>
+		</Unit>
 		<Unit filename="/home/kamau/Development/Projects/App-Websockets/plugin/main.cpp">
 			<Option target="App_Websockets"/>
 		</Unit>

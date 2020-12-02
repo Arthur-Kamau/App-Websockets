@@ -170,6 +170,33 @@ AppWebSockets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSockets.cpp.s
 .PHONY : AppWebSockets.cpp.s
 
+AppWebSocketsConnectionObject.o: AppWebSocketsConnectionObject.cpp.o
+
+.PHONY : AppWebSocketsConnectionObject.o
+
+# target to build an object file
+AppWebSocketsConnectionObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSocketsConnectionObject.cpp.o
+.PHONY : AppWebSocketsConnectionObject.cpp.o
+
+AppWebSocketsConnectionObject.i: AppWebSocketsConnectionObject.cpp.i
+
+.PHONY : AppWebSocketsConnectionObject.i
+
+# target to preprocess a source file
+AppWebSocketsConnectionObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSocketsConnectionObject.cpp.i
+.PHONY : AppWebSocketsConnectionObject.cpp.i
+
+AppWebSocketsConnectionObject.s: AppWebSocketsConnectionObject.cpp.s
+
+.PHONY : AppWebSocketsConnectionObject.s
+
+# target to generate assembly for a file
+AppWebSocketsConnectionObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/App_Websockets.dir/build.make CMakeFiles/App_Websockets.dir/AppWebSocketsConnectionObject.cpp.s
+.PHONY : AppWebSocketsConnectionObject.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... AppWebSockets.o"
 	@echo "... AppWebSockets.i"
 	@echo "... AppWebSockets.s"
+	@echo "... AppWebSocketsConnectionObject.o"
+	@echo "... AppWebSocketsConnectionObject.i"
+	@echo "... AppWebSocketsConnectionObject.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
