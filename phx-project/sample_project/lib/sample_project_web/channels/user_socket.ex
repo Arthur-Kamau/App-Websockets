@@ -3,7 +3,7 @@ defmodule SampleProjectWeb.UserSocket do
 
   ## Channels
   # channel "room:*", SampleProjectWeb.RoomChannel
-
+  channel("test:lobby", SampleProjectWeb.TestChannel)
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
   # verification, you can put default assigns into

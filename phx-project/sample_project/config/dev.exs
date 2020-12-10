@@ -1,14 +1,5 @@
 use Mix.Config
 
-# Configure your database
-config :sample_project, SampleProject.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "sample_project_dev",
-  hostname: "localhost",
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
-
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #
@@ -60,7 +51,7 @@ config :sample_project, SampleProjectWeb.Endpoint,
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/sample_project_web/{live,views}/.*(ex)$",
+      ~r"lib/sample_project_web/(live|views)/.*(ex)$",
       ~r"lib/sample_project_web/templates/.*(eex)$"
     ]
   ]
