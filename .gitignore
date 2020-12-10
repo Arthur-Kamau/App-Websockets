@@ -161,6 +161,7 @@ dist
 /doc
 /tmp
 /node_modules
+/.elixir_ls
 
 /assets/node_modules
 
@@ -173,3 +174,9 @@ dist
 /integration_test/deps
 
 erl_crash.dump
+
+## .idea files
+.idea
+plugin/cmake-build-debug/*
+phx-project/sample_project/_build
+phx-project/sample_project/.elixir_ls

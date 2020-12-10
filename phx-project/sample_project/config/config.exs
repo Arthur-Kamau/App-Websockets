@@ -15,7 +15,7 @@ config :sample_project, SampleProjectWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "vXp8WvPUBgxapXbNUigfWVuNKDTlmjF4JU+Upbh+jAmY92thL/MCni0zDtMuYsoQ",
   render_errors: [view: SampleProjectWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: SampleProject.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub_server: SampleProject.PubSub
 
 # Configures Elixir's Logger
 config :logger, :console,
