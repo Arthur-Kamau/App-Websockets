@@ -14,8 +14,8 @@ Crossplatform , Language agnostic using foreign function interface(nifs)
 
 ## Folder .
 * `plugin` -> C++ project.(Open with clion)
-* `node` -> simple node server. 
-* `phx-project` -> pheonix project 
+* `js_test_client` -> simple node server. 
+* `phx_sample_project` -> pheonix project.
 
 
 ### Useful Guides & Commands.
